@@ -1,7 +1,16 @@
 <form action="/user/login" method="post">
-  <h1>Log in</h1>
-  <input type="text" name="username" placeholder="username" required>
-  <input type="password" name="password" placeholder="password" required>
-  <a href="/user/forgot">Forgot your password?</a>
-  <button type="submit">Log in</button>
+  <div class="text-center">
+    <h1 class="text-4xl p-16">Login</h1>
+    <div class="flex flex-wrap justify-center">
+      <img target:logo-image="@src" src="/assets/images/journal.png" class="p-3 bg-white border rounded max-w-sm"/>
+    </div>
+    <br>
+    <input type="text" name="username" placeholder="username" required>
+    <br><br>
+    <input type="password" name="password" placeholder="password" required>
+    <br><br>
+    <a class= "border-4 bg-yellow-500 border-yellow-700" href="/user/forgot">Forgot your password?</a>
+    <br><br>
+    <button class="text-center border-4 bg-yellow-500 border-yellow-700" type="submit">Login</button>
+  </div>
 </form>

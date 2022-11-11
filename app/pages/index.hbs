@@ -1,8 +1,13 @@
-<h1>Welcome to my app!</h1>
+<h1 class="text-center text-4xl p-16">Welcome to my journal!</h1>
+<div class="flex flex-wrap justify-center">
+  <img target:logo-image="@src" src="/assets/images/journal.png" class="p-3 bg-white border rounded max-w-sm"/>
+</div>
 <ul>
   {{#if currentUser}}
-    <li><a href="/{{currentUser.details.username}}">Go to your dashboard</a></li>
+  <br>
+    <li class="flex flex-wrap justify-center"><a class="border-4 bg-yellow-500 border-yellow-700" href="/{{currentUser.details.username}}">Go to your dashboard</a></li>
   {{else}}
-    <li><a href="/user/signup">Sign up for an account</a></li>
+  <br>
+    <li class="flex flex-wrap justify-center"><a class="border-4 bg-yellow-500 border-yellow-700" href="/user/signup">Sign up for an account</a></li>
   {{/if}}
 </ul>
