@@ -1,7 +1,35 @@
 <form action="/user/signup" method="post">
-  <h1>Sign up</h1>
-  <input type="text" name="username" placeholder="Username" required>
-  <input type="email" name="email" placeholder="Email" required>
-  <input type="password" name="password" placeholder="Password" required>
-  <button type="submit">Sign up</button>
+<div >
+  <button class="border">Back</button>
+</div>
+  <center>
+  <div class="flex flex-wrap justify-center">
+    <img target:logo-image="@src" src="/app/assets/images/journal/png" class="p-3 bg-white rounded max-w-sm"/>
+  </div>
+  </center>
+
+  <center>
+  <p><b>Name:</b></p>
+  <div>
+    <input type="text" name="username" placeholder="Username" class="border" required>
+  </div>
+  <p><b>Email Address:</b></p>
+  <div>
+    <input type="email" name="email" placeholder="Email" class="border" required>
+  </div>
+  <p><b>Password:</b></p>
+  <input type="password" name="password" placeholder="Password" class="border" required>
+    <div>
+      <p></p>
+      <button class="text-center border-4 bg-yellow-500 border-yellow-700" type="submit" class="text-purple-600" >Sign up</button>
+      
+    </div>
+  </center>
+  
 </form>
+
+
+
+
+
+
