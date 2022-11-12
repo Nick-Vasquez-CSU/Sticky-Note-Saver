@@ -8,8 +8,8 @@
     {{#for todo in todos}}
       <p
         object
-        key:text="@innerText"
-        edit:text
+        key:some-multi-line-text="@innerText"
+        edit:some-multi-line-text:textarea
         class="text-clip overflow-hidden post-it"
       >{{default todo.text "Sticky Note"}}</p>
     {{/for}}
@@ -17,4 +17,3 @@
 
 </div>
 <button class="text-center py-2 px-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded transition duration-300" new:todo>Add Sticky Note</button>
-
