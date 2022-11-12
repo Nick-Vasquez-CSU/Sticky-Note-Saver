@@ -1,5 +1,20 @@
-<h1 class="text-3xl font-bold underline">Welcome to the app!</h1>
-<h1 class="text-blue-700">Welcome!</h1>
-<div>[[ Dynamic Remake code goes here]]</div>
-<br><br>
-<a href="https://docs.remaketheweb.com/a-simple-example-app/">Try a simple todo app</a>
+<h1 class="text-blue-700">{{currentUser.details.username}}</h1>
+<h1 class="text-3xl font-bold underline">Edit Sticky Notes Here!</h1>
+
+
+
+<div object>
+  <ul array key="todos" sortable>
+    {{#for todo in todos}}
+      <p
+        object
+        key:text="@innerText"
+        edit:text
+        class="text-clip overflow-hidden post-it"
+      >{{default todo.text "Sticky Note"}}</p>
+    {{/for}}
+  </ul>
+
+</div>
+<button class="text-center py-2 px-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded transition duration-300" new:todo>Add Sticky Note</button>
+
