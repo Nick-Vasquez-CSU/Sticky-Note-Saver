@@ -8,8 +8,8 @@
     {{#for todo in todos}}
       <p
         object
-        key:some-multi-line-text="@innerText"
-        edit:some-multi-line-text:textarea
+        key:text="@innerText"
+        edit:text
         class="text-clip overflow-hidden post-it"
       >{{default todo.text "Sticky Note"}}</p>
     {{/for}}
