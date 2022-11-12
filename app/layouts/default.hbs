@@ -7,29 +7,29 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/_remake.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
 </head>
-<header>
-<nav class="bg-gray-100">
-  <div class="max-w-6xl mx-auto px-4">
+<header class = "h-10">
+<nav class=" ">
+  <div class="flex max-w-7xl mx-auto px-8 rounded-t-none rounded-b-3xl bg-[#F3E779] shadow-l shadow-amber-100    ">
     <div class="flex justify-between">
 
       <div class="flex space-x-4">
         <!-- logo -->
         <div>
-          <a href="#" class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
+          <a href="#" class="flex  py-5 px-2 text-gray-700 hover:text-gray-900">
             <img src="/assets/images/journal.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
-                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Web Note</span>
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-gray-900">Web Note</span>
             </a>
         </div>
 
         <!-- primary nav -->
         <div class="hidden md:flex items-center space-x-1">
-          <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900"></a>
-          <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900"></a>
+          <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">&nbsp;</a>
+          <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">&nbsp;</a>
         </div>
       </div>
 
       <!-- secondary nav -->
-      <div class="hidden md:flex items-center space-x-1">
+      <div class="hidden md:flex items-center space-x-1 object right">
         <a href="/aus" class="py-5 px-3 text-gray-700 hover:text-gray-900">About Us</a>
          {{#if currentUser}}
         <a href="/user/logout" class="py-5 px-3 text-gray-700 hover:text-gray-900">Logout</a>
@@ -41,7 +41,7 @@
       </div>
 </header>
 
-<body>
+<body class = "mb-auto h-10">
   {{!-- {{#if currentUser}}
     <a href="/user/logout">Logout</a>
   {{else}}
@@ -71,4 +71,26 @@
   {{/if}}
   <script src="/assets/js/main.js"></script>
 </body>
+
+<footer class = "flex flex-col h-screen justify-between h-10">
+<nav class=" ">
+  <div class="flex max-w-7xl mx-auto px-8 rounded-t-none rounded-b-3xl bg-[#F3E779] shadow-l shadow-amber-100    ">
+    <div class="flex justify-between">
+
+      <div class="flex space-x-4">
+        <!-- logo -->
+        <div>
+          <a href="#" class="flex  py-5 px-2 text-gray-700 hover:text-gray-900">
+            <img src="/assets/images/journal.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-gray-900">Web Note</span>
+            </a>
+        </div>
+
+        <!-- primary nav -->
+        <div class="hidden md:flex items-center space-x-1">
+          <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">&nbsp;</a>
+          <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">&nbsp;</a>
+        </div>
+      </div>
+</footer>
 </html>
