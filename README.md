@@ -1,22 +1,21 @@
 ### Sticky-Note-Saver
-
+| Group             |
+|-------------------|
 | Stephanie Pocci   |
-| Satish Bisa     |
-| Nick Vasquez    |
-|     |
+| Emmanuel Salcedo  |
+| Nick Vasquez      |
+| Ramiro Aispuro    |
 
 ##### WHAT WE LEARNED
-* How to implement back-end APIs in Python with the Quart web framework
-* How to design and implement relational database schemas for back-end APIs
-* How to extract, transform, and load database tables from data sources in other formats
-* How to work with and design around existing code produced by another team
-* How to implement functional partitioning of services by splitting a monolithic web service
-* How to run and debug multiple instances of a web service process
-* How to configure and test an HTTP reverse proxy and load balancer
-* How to implement read-replication for a relational database
-* How to design a data model for a key-value store
-* How to implement basic features of the Redis NoSQL database
-* Tools: Python, Quart, Nginx, MySQL, Foreman, Redis
-
+* How to wireframe, mockup, and prototype the front-end design of a website
+* How to apply CSS styles to components and create layouts
+* How to work within the Tailwindcss framework
+* How to work with JSON as a data format
+* How to utilize low-code tools to create working prototypes of a product
+* How to create conditional statements within the Remake framework
+* How to segue between multiple pages of a website within the Remake framework
+* How to create specific HTML elements dynamically according to the input of the user
+* Tools: NodeJS, TailwindCSS, Remake, Javascript, HTML, Wireframe.cc
 
 ##### HOW TO RUN THE PROJECT
+1. 
