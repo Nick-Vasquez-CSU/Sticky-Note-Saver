@@ -19,6 +19,7 @@
 * Tools: NodeJS, TailwindCSS, Remake, Javascript, HTML, Wireframe.cc
 
 ##### HOW TO RUN THE PROJECT
+* The application runs through a linux environment
 1. Download the repository and store it within your desired folder
 2. Install the latest version of Node.js: **`curl -s -L http://git.io/n-install | bash -s -- -y`** **`. $HOME/.bashrc`**
 3. Run the following command in the terminal under the repository's directory: **`npm install -D npm-run-all`**
