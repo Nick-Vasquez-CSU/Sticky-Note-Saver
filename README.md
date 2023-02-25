@@ -6,6 +6,7 @@
 | Nick Vasquez      |
 | Ramiro Aispuro    |
 
+![Screenshot](md.png)
 ##### WHAT WE LEARNED
 * How to wireframe, mockup, and prototype the front-end design of a website
 * How to apply CSS styles to components and create layouts
